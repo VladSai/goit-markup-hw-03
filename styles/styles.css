@@ -91,9 +91,6 @@ body {
 /* Logo */
 
 .logo {
-  padding-bottom: 32px;
-  padding-top: 32px;
-
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -118,6 +115,8 @@ body {
 }
 
 .site-nav .link {
+  display: block;
+  padding: 32px 0;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -144,12 +143,9 @@ body {
   margin-left: 50px;
 }
 
-.link {
-  padding-bottom: 32px;
-  padding-top: 32px;
-}
-
 .contacts .link {
+  display: block;
+  padding: 32px 0;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -304,6 +300,8 @@ body {
 
 .logo-footer {
   display: block;
+  margin-bottom: 20px;
+
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -314,7 +312,6 @@ body {
 
 .address-list {
   display: block;
-  margin-top: 20px;
 }
 
 .address-list .item + .item {
